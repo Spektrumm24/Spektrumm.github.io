@@ -198,6 +198,12 @@ nav {
     align-items: center;
 }
 
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .features__para{
     text-align: center;
     max-width: 1000px;
@@ -217,9 +223,20 @@ nav {
     flex-wrap: wrap;
 }
 
+.results_services{
+    display: flex;
+    width: 100%;
+}
+
 .service{
     display: flex;
     width: calc(100%/2);
+    padding: 32px 8px;
+}
+
+.result{
+    display: flex;
+    width: 100%;
     padding: 32px 8px;
 }
 
@@ -241,11 +258,24 @@ nav {
     border-radius: 10px;
 }
 
+.result--img{
+    width: 600px;
+    height: 400px;
+}
+
+
 .service__text--container{
     margin: 8px 0 0 16px;
     width: 100%;
     max-width: 400px;
 }
+
+.result__text--container{
+    margin: 8px 0 0 16px;
+    width: 100%;
+}
+
+
 
 .member__text--container{
     margin: 8px 0 0 16px;
